@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Марина\source\repos\wsrr-master\wsr\obj\Debug\
+C:\Users\Марина\source\repos\wsr\wsr\obj\Debug\
 wsr
 none
 false
 DEBUG;TRACE
-C:\Users\Марина\source\repos\wsrr-master\wsr\App.xaml
+C:\Users\Марина\source\repos\wsr\wsr\App.xaml
 21-628043570
 
-26-367974693
-22-975436371
+27-171501031
+221932213641
 Client.xaml;ClothList.xaml;clothSklad.xaml;delcloth.xaml;delFurniture.xaml;Director.xaml;FurnitureList.xaml;furnitureSklad.xaml;invent.xaml;inventItem.xaml;inventoryCloth.xaml;klad.xaml;MainWindow.xaml;Manager.xaml;NewOrder.xaml;postcloth.xaml;postFurniture.xaml;ProductList.xaml;register.xaml;sklad.xaml;Unit.xaml;
 
-False
+True
 
