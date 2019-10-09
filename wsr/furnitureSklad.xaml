@@ -1,0 +1,17 @@
+﻿<Window x:Class="wsr.furnitureSklad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wsr"
+        mc:Ignorable="d"
+        Title="Склад фурнитуры" Height="450" Width="800">
+    <Grid Background="#FFE0A9AF">
+        <DataGrid x:Name="SkladFurniture" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="538" Loaded="DataGrid_Loaded"/>
+        <Button x:Name="exit" Content="Выход" HorizontalAlignment="Left" Height="83" Margin="573,280,0,0" VerticalAlignment="Top" Width="193" Background="#FFB5D5CA" Click="Exit_Click"/>
+        <Button x:Name="post" Content="Поступление&#xD;&#xA;фурнитуры" HorizontalAlignment="Left" Height="83" Margin="573,10,0,0" VerticalAlignment="Top" Width="193" Background="#FFB5D5CA" Click="Post_Click"/>
+        <Button x:Name="del" Content="Списание&#xD;&#xA;фурнитуры" HorizontalAlignment="Left" Height="83" Margin="573,104,0,0" VerticalAlignment="Top" Width="193" Background="#FFB5D5CA" Click="spis_Click"/>
+        <Button x:Name="inv" Content="Инвентаризация" HorizontalAlignment="Left" Height="83" Margin="573,192,0,0" VerticalAlignment="Top" Width="193" Background="#FFB5D5CA" Click="inv_Click"/>
+
+    </Grid>
+</Window>

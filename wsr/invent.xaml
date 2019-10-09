@@ -1,0 +1,15 @@
+﻿<Window x:Class="wsr.invent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wsr"
+        mc:Ignorable="d"
+        Title="Список инвентаризации" Height="450" Width="800">
+    <Grid Background="#FFE0A9AF">
+        <DataGrid x:Name="ListInvent" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="603" Loaded="DataGrid_Loaded" SelectionChanged="ListInvent_SelectionChanged" SelectedCellsChanged="ListInvent_SelectedCellsChanged" MouseDoubleClick="ListInvent_MouseDoubleClick">
+        </DataGrid>
+        <Button Content="Выход" x:Name="exit" HorizontalAlignment="Left" Height="78" Margin="618,332,0,0" VerticalAlignment="Top" Width="166" Click="Exit_Click"/>
+
+    </Grid>
+</Window>

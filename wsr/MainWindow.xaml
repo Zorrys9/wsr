@@ -1,0 +1,23 @@
+﻿<Window x:Class="wsr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wsr"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="318.4" Width="452.4" Icon="logo-02.ico">
+    <Grid Background="#FFE0A9AF">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="inp" Content="Войти" HorizontalAlignment="Left" Height="52" Margin="259,165,0,0" VerticalAlignment="Top" Width="175" FontSize="16" Click="Inp_Click" TabIndex="3" Background="#FFB5D5CA" FontFamily="Arial"/>
+        <Label Grid.ColumnSpan="3" Content="Логин" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="138" FontSize="18" FontFamily="Arial"/>
+        <Label Grid.ColumnSpan="3" Content="Пароль" HorizontalAlignment="Left" Height="30" Margin="10,43,0,0" VerticalAlignment="Top" Width="138" FontSize="18" FontFamily="Arial"/>
+        <TextBox x:Name="login" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="99,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Grid.ColumnSpan="4" FontSize="18" TabIndex="1" IsTabStop="False" FontFamily="Arial" Background="#FFFFFCD6"/>
+        <TextBox x:Name="password" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="99,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Grid.ColumnSpan="4" FontSize="18" TabIndex="2" FontFamily="Arial" Background="#FFFFFCD6"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Height="59" Margin="259,219,0,0" VerticalAlignment="Top" Width="175" FontSize="16" Click="Button_Click" TabIndex="4" Background="#FFB5D5CA" FontFamily="Arial"/>
+        <Button Content="klad" HorizontalAlignment="Left" Height="51" Margin="10,228,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click_1"/>
+        <Button Content="client" HorizontalAlignment="Left" Height="51" Margin="85,172,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click_4"/>
+        <Button Content="manager" HorizontalAlignment="Left" Height="51" Margin="10,172,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click_3"/>
+        <Button Content="dir" HorizontalAlignment="Left" Height="51" Margin="85,228,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click_2"/>
+    </Grid>
+</Window>
